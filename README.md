@@ -8,11 +8,6 @@
 - [0. Bussiness Problem](#0-bussiness-problem)
   - [0.1. What is a Service](#01-what-is-a-service)
   - [0.2. What is Fraud](#02-what-is-fraud)
-    - [0.2.1. Heart Attack](#021-heart-attack) 
-    - [0.2.2. Heart Failure](#022-heart-failure)
-    - [0.2.3. Heart Valve Problems](#023-heart-valve-problems)
-    - [0.2.4. Stroke](#024-stroke)
-    - [0.2.5. Arrhythmia](#025-arrhythmia)
 
 ---
 
@@ -47,7 +42,14 @@
 
 <p>For the customer it is an excellent deal, although the fee charged for the service is very high above 25% of success, the company will reduce its costs with fraudulent transactions detected as true frauds, but it will have a loss caused by the error in the service that will be covered by the own company.</p>
 <p>In addition to attracting new clients from Brazil, with this risky strategy of guaranteeing reimbursement in case of failure, it specifically depends on the precision and accuracy of the model in carrying out these detections.</p>
- 
+
+<h3>0.2. What is a Fraud</h3>
+
+<p>Fraud is an intentionally deceptive action designed to provide the perpetrator with an unlawful gain or to deny a right to a victim. In addition, it is a deliberate act (or failure to act) with the intention of obtaining an unauthorized benefit, either for oneself or for the institution, by using deception or false suggestions or suppression of truth or other unethical means, which are believed and relied upon by others. Depriving another person or the institution of a benefit to which he/she/it is entitled by using any of the means described above also constitutes fraud.</p>
+
+<p>Types of fraud include tax fraud, credit card fraud, wire fraud, securities fraud, and bankruptcy fraud. Fraudulent activity can be carried out by one individual, multiple individuals or a business firm as a whole.</p>
+
+
  
 <!-- <h2>1. Solution Strategy and Assumptions Resume</h2>
 <hr>
