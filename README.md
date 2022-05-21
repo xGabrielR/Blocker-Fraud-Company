@@ -10,7 +10,10 @@
   - [0.2. What is a Fraud](#02-what-is-a-fraud)
   - [0.3. Fraud in Financial Transactions](#03-fraud-in-financial-transactions)
     - [0.3.1. Types of Transactions](#031-types-of-transactions)
-      - [0.3.1.1. Cash Transactions](#0311-cash-transactions) 
+      - [0.3.1.1. Cash Transactions](#0311-cash-transactions)
+      - [0.3.1.2. Transfer](#0312-transfer)
+      - [0.3.1.3. Debit](#0313-debit)
+      - [0.3.1.4. Payment](#0314-payment)
 
 ---
 
