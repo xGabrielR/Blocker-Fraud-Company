@@ -7,7 +7,10 @@
 
 - [0. Bussiness Problem](#0-bussiness-problem)
   - [0.1. What is a Service](#01-what-is-a-service)
-  - [0.2. What is Fraud](#02-what-is-fraud)
+  - [0.2. What is a Fraud](#02-what-is-a-fraud)
+  - [0.3. Fraud in Financial Transactions](#03-fraud-in-financial-transactions)
+    - [0.3.1. Types of Transactions](#031-types-of-transactions)
+      - [0.3.1.1. Cash Transactions](#0311-cash-transactions) 
 
 ---
 
@@ -45,10 +48,49 @@
 
 <h3>0.2. What is a Fraud</h3>
 
+<p><i>"Wrongful or criminal deception intended to result in financial or personal gain."</i>~ Wiki</p>
+
 <p>Fraud is an intentionally deceptive action designed to provide the perpetrator with an unlawful gain or to deny a right to a victim. In addition, it is a deliberate act (or failure to act) with the intention of obtaining an unauthorized benefit, either for oneself or for the institution, by using deception or false suggestions or suppression of truth or other unethical means, which are believed and relied upon by others. Depriving another person or the institution of a benefit to which he/she/it is entitled by using any of the means described above also constitutes fraud.</p>
 
 <p>Types of fraud include tax fraud, credit card fraud, wire fraud, securities fraud, and bankruptcy fraud. Fraudulent activity can be carried out by one individual, multiple individuals or a business firm as a whole.</p>
 
+<p>More Examples of Fraud:</p>
+
+1. Data theft on fake websites.
+2. Purchase of physical facilities.
+3. Document change.
+4. Computer data theft.
+5. Interception of goods.
+6. Phishing.
+7. Bots and Stealing Files.
+8. Receipts of or benefits not granted.
+9. Ethics Violations.
+10. Conflict of interests.
+11. Appropriation or misuse of resources eg Supplies.
+
+<p>Fraud involves the false representation of facts, whether by intentionally withholding important information or providing false statements to another party for the specific purpose of gaining something that may not have been provided without the deception.</p>
+
+<h3>0.3. Fraud in Financial Transactions</h3>
+
+<p>A financial transaction is an agreement, or communication, between a buyer and seller to exchange goods, services, or assets for payment. Any transaction involves a change in the status of the finances of two or more businesses or individuals. A financial transaction always involves one or more financial asset, most commonly money or another valuable item such as gold or silver.</p>
+
+<h4>0.3.1. Types of Transactions</h4>
+
+<h5>0.3.1.1. Cash Transactions</h5>
+
+<p>A cash transaction is any transaction where money is exchanged for a good, service, or other commodity. Cash transactions can refer to items bought with physical money, such as coins or cash, or with a debit card. These differ from credit transactions because the money is immediately taken from the buyer and given to the seller.</p>
+
+<p>A cash transaction stands in contrast to other modes of payment, such as credit transactions in a business involving bills receivable. Similarly, a cash transaction is also different from credit card transactions.</p>
+
+<h5>0.3.1.1. Transfer</h5>
+
+<h5>0.3.1.1. Debit</h5>
+<p>A debit card payment is the same as an immediate payment of cash as the amount gets instantly debited from your bank account.</p>
+
+<p>Debit cards allow bank customers to spend money by drawing on existing funds they have already deposited at the bank, such as from a checking account. A debit transaction using your PIN (personal identification number), is an online transaction completed in real time. When you complete a debit transaction, you authorize the purchase with your PIN and the merchant communicates immediately with your bank or credit union, causing the funds to be transferred in real time.</p>
+
+<h5>0.3.1.1. Payment</h5>
+<p></p>
 
  
 <!-- <h2>1. Solution Strategy and Assumptions Resume</h2>
