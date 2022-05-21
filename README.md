@@ -46,6 +46,7 @@
 <p>For the customer it is an excellent deal, although the fee charged for the service is very high above 25% of success, the company will reduce its costs with fraudulent transactions detected as true frauds, but it will have a loss caused by the error in the service that will be covered by the own company.</p>
 <p>In addition to attracting new clients from Brazil, with this risky strategy of guaranteeing reimbursement in case of failure, it specifically depends on the precision and accuracy of the model in carrying out these detections.</p>
 
+
 <h3>0.2. What is a Fraud</h3>
 
 <p><i>"Wrongful or criminal deception intended to result in financial or personal gain."</i>~ Wiki</p>
@@ -70,27 +71,30 @@
 
 <p>Fraud involves the false representation of facts, whether by intentionally withholding important information or providing false statements to another party for the specific purpose of gaining something that may not have been provided without the deception.</p>
 
+
 <h3>0.3. Fraud in Financial Transactions</h3>
 
 <p>A financial transaction is an agreement, or communication, between a buyer and seller to exchange goods, services, or assets for payment. Any transaction involves a change in the status of the finances of two or more businesses or individuals. A financial transaction always involves one or more financial asset, most commonly money or another valuable item such as gold or silver.</p>
+
 
 <h4>0.3.1. Types of Transactions</h4>
 
 <h5>0.3.1.1. Cash Transactions</h5>
 
 <p>A cash transaction is any transaction where money is exchanged for a good, service, or other commodity. Cash transactions can refer to items bought with physical money, such as coins or cash, or with a debit card. These differ from credit transactions because the money is immediately taken from the buyer and given to the seller.</p>
-
 <p>A cash transaction stands in contrast to other modes of payment, such as credit transactions in a business involving bills receivable. Similarly, a cash transaction is also different from credit card transactions.</p>
 
-<h5>0.3.1.1. Transfer</h5>
+<h5>0.3.1.2. Transfer</h5>
+<p>A transfer is the movement of assets, funds, or ownership rights from one place to another. Is also used to describe the process by which ownership of funds or assets are reassigned to a new owner. Banking, brokerage, cryptocurrency, asset titles, and loan transfers are a few examples of domains and transaction types where transfers occur.</p>
 
-<h5>0.3.1.1. Debit</h5>
+<h5>0.3.1.3. Debit</h5>
 <p>A debit card payment is the same as an immediate payment of cash as the amount gets instantly debited from your bank account.</p>
-
 <p>Debit cards allow bank customers to spend money by drawing on existing funds they have already deposited at the bank, such as from a checking account. A debit transaction using your PIN (personal identification number), is an online transaction completed in real time. When you complete a debit transaction, you authorize the purchase with your PIN and the merchant communicates immediately with your bank or credit union, causing the funds to be transferred in real time.</p>
+<p>In a credit card payment made by you, the amount is not debited from your bank account instantly. However, you are able to buy the product within your credit limit under the credit card. You need to make payment only after the generation of your credit card bill</p>
 
-<h5>0.3.1.1. Payment</h5>
-<p></p>
+<h5>0.3.1.4. Payment</h5>
+<p>An act initiated by the payer or payee, or on behalf of the payer, of placing, transferring or withdrawing funds, irrespective of any underlying obligations between the payer and payee.</p>
+
 
  
 <!-- <h2>1. Solution Strategy and Assumptions Resume</h2>
@@ -161,9 +165,16 @@
 <p></p> -->
 
 
-<!-- <h2>9. References</h2>
+<h2>9. References</h2>
 <hr>
 
 <ul>
-  <li><a href='https://www.google.com'>Name</a></li>
-</ul> -->
+  <li><a href="https://www.serasa.com.br/ensina/seu-cpf-protegido/o-que-e-fraude/">Oque é Fraude?</a></li>
+  <li><a href="https://blogbr.clear.sale/fraude-no-e-commerce-entenda-este-fen-meno-e-saiba-quais-s-o-os-principais-tipos">Fraude: Entenda oque é</a></li>
+  <li><a href="https://distrito.me/blog/mobile-payment-o-que-e-como-funciona-e-tendencias-no-brasil">Tendências de Mobile Payment</a></li>
+  <li><a href="https://www.investopedia.com/terms/f/fraud.asp">Fraud: What You Need to Know</a></li>
+  <li><a href="https://cleartax.in/g/terms/cash-transaction">Cash Transaction</a></li>
+  <li><a href="https://www.investopedia.com/terms/d/debit.asp">Debit</a></li>
+  <li><a href="https://www.investopedia.com/terms/t/transfer.asp">Transfer</a></li>
+  <li><a href="https://intellias.com/how-to-use-machine-learning-in-fraud-detection/">ML On Fraud Detection</a></li>
+</ul>
