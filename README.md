@@ -52,12 +52,12 @@
 
 <p>B2B Metrics is very important, let's check some ones!</p>
 <ul>
-  <li>💸 Market Strategy</li>
-  <li>💸 Target Clients.</li>
-  <li>💸 Number of New Clients.</li>
-  <li>💸 Client Aquisition Cost.</li>
-  <li>💸 Lead Conversion Rate.</li>
-  <li>💸 Churn Rate.</li>
+  <li>💸 Market Strategy;</li>
+  <li>💸 Target Clients;</li>
+  <li>💸 Number of New Clients;</li>
+  <li>💸 Client Aquisition Cost;</li>
+  <li>💸 Lead Conversion Rate;</li>
+  <li>💸 Churn Rate;</li>
 </ul>
 
 <h3>0.2. What is a Fraud</h3>
