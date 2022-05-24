@@ -110,19 +110,42 @@
 
 
  
-<!-- <h2>1. Solution Strategy and Assumptions Resume</h2>
+<h2>1. Solution Strategy and Assumptions Resume</h2>
 <hr>
 
-<p></p>
+<p>The first problem finded is the massive size of dataset. The Dataset Info you can check below.</p>
+
+<table>
+  <tr>
+    <td>Columns</td>
+    <td>Rows</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>6353307</td>
+  </tr>
+</table>
+
 
 <h3>1.1. First CRISP Cycle</h3>
 
 <ul>
   <dl>
     <dt>Data Cleaning & Descriptive Statistical.</dt>
-      <dd>####</dd>
+      <dd>The first step in data science projects is clean the dataset and check rows datatypes and fix simple wrong inputs. After dataset clean, the step is check with simple statistics methods the dataset behavior with (mean, median, std, skew, skew, kurtosis).</dd>
+    <p>In this step I get some insight's and inconsistencies, you can check in this image below. 0 Transaction and 0 Median to newbalance_orig, the perpetrator clean the account.</p>
+    <table>
+      <tr>
+        <td>newbalance_orig <b>Median</b></td>
+        <td>Amount <b>Min</b></td>
+      </tr>
+      <tr>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+    </table>
   </dl>
-</ul> -->
+</ul>
 
 
 
