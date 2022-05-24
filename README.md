@@ -39,6 +39,7 @@
 <h3>0.1. What is a Service</h3>
 
 <p>Service is a business model like consultory, the company make a work and receive a profit based on her work results. For example, the Blocker Fraud Company, In Brazil, the company start with a new method of services to get some new clients based only on your "Blocker Fraud" model.</p>
+<p>At Blocker Fraud it is B2B, Business to Business, Blocker Fraud offers the service to other businesses like banks and finance houses</p>
 
 > *1. The company will receive **25%** of the value of each transaction that is **truly detected as fraud**.*
 > 
@@ -49,6 +50,15 @@
 <p>For the customer it is an excellent deal, although the fee charged for the service is very high above 25% of success, the company will reduce its costs with fraudulent transactions detected as true frauds, but it will have a loss caused by the error in the service that will be covered by the own company.</p>
 <p>In addition to attracting new clients from Brazil, with this risky strategy of guaranteeing reimbursement in case of failure, it specifically depends on the precision and accuracy of the model in carrying out these detections.</p>
 
+<p>B2B Metrics is very important!</p>
+<ul>
+  <li>💸 Market Strategy</li>
+  <li>💸 Target Clients.</li>
+  <li>💸 Number of New Clients.</li>
+  <li>💸 Client Aquisition Cost.</li>
+  <li>💸 Lead Conversion Rate.</li>
+  <li>💸 Churn Rate.</li>
+</ul>
 
 <h3>0.2. What is a Fraud</h3>
 
