@@ -50,7 +50,7 @@
 <p>For the customer it is an excellent deal, although the fee charged for the service is very high above 25% of success, the company will reduce its costs with fraudulent transactions detected as true frauds, but it will have a loss caused by the error in the service that will be covered by the own company.</p>
 <p>In addition to attracting new clients from Brazil, with this risky strategy of guaranteeing reimbursement in case of failure, it specifically depends on the precision and accuracy of the model in carrying out these detections.</p>
 
-<p>B2B Metrics is very important!</p>
+<p>B2B Metrics is very important, let's check some ones!</p>
 <ul>
   <li>💸 Market Strategy</li>
   <li>💸 Target Clients.</li>
