@@ -144,6 +144,10 @@
         <td>0.0</td>
       </tr>
     </table>
+    <dt>Feature Engineering.</dt>
+      <dd>In this step, with coggle.it to make a mind map and use the mind map to create some hypothesis list, after this list, I have created some new features based on differencies, like origin and destination balance diff, merchant flag and day based on "step" feature.</dd>
+    <dt>Data Filtering.</dt>
+      <dd>In first cycle I only selected a range of values to amount because in "big" transactions, in the dataset do not exists fraud on high values of transaction.</dd>
   </dl>
 </ul>
 
