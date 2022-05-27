@@ -153,19 +153,29 @@
 
 
 
-<!-- 
+
 <h2>2. Exploratory Data Analysis</h2>
 <hr>
 
 <h3>2.1. EDA On First Cycle</h3>
 
-<p></p> -->
+<p>I divide the EDA into three steps, univariable, bivariable and multivariable steps, In the univariable I check the target and all the characteristics (categorical and numerical), In the Bivariable, this step I validate 8 Business Hypotheses and in the Multivariable it is the correlations and the pair diagrams</p>
 
 
-<!-- <h3>2.2. Top 3 Eda Insights</h3>
+<h3>2.2. Top 3 Eda Insights</h3>
 <hr>
 
-<p></p> -->
+<p>1. Debit transactions represent more than 50% of fraud cases.</p>
+
+![fraud_per_day](https://user-images.githubusercontent.com/75986085/170603071-3aa00dd7-4532-417d-bc74-d831784703c4.png)
+
+<p>2. Transactions after the 20th of the month account for 20% more fraud cases.</p>
+
+![after_20_days](https://user-images.githubusercontent.com/75986085/170603088-84691292-e097-4d73-a224-5b3a7ea39ee9.png)
+
+<p>3. 80% of fraud cases happen when the destination of the transaction already has money in the account.</p>
+
+![fraud_amount](https://user-images.githubusercontent.com/75986085/170603081-50437ceb-03e6-4b01-a2a8-8f107a08215a.png)
 
 
 <!-- <h2>3. Data Preparation</h2>
