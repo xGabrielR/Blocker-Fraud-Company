@@ -153,6 +153,8 @@
       <dd>In this step, with coggle.it to make a mind map and use the mind map to create some hypothesis list, after this list, I have created some new features based on differencies, like origin and destination balance diff, merchant flag and day based on "step" feature.</dd>
     <dt>Data Filtering.</dt>
       <dd>In first cycle I only selected a range of values to amount because in "big" transactions, in the dataset do not exists fraud on high values of transaction.</dd>
+    <dt>Exploratory Data Analysis.</dt>
+      <dd>In this step I deep dive in the dataset to shear for behaviors in three steps, the Univariable, Bivariable and Multivariable analysis to detect Fraud comportements, validation of bussiness hypothesis and correlations.</dd>
   </dl>
 </ul>
 
