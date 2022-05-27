@@ -14,6 +14,10 @@
       - [0.3.1.2. Transfer](#0312-transfer)
       - [0.3.1.3. Debit](#0313-debit)
       - [0.3.1.4. Payment](#0314-payment)
+- [1. Solution Strategy and Assumptions Resume](#1-solution-strategy-and-assumptions-resume)
+  - [1.1. First CRISP Cycle](#11-first-crisp-cycle)
+- [2. Exploratory Data Analysis](#2-exploratory-data-analysis)
+  - [2.2. Top 3 Eda Insights](#22-top-3-eda-insights) 
 
 ---
 
@@ -150,9 +154,6 @@
       <dd>In first cycle I only selected a range of values to amount because in "big" transactions, in the dataset do not exists fraud on high values of transaction.</dd>
   </dl>
 </ul>
-
-
-
 
 <h2>2. Exploratory Data Analysis</h2>
 <hr>
