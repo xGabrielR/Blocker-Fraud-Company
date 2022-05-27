@@ -165,6 +165,16 @@
 
 <p>I divide the EDA into three steps, univariable, bivariable and multivariable steps, In the univariable I check the target and all the characteristics (categorical and numerical), In the Bivariable, this step I validate 8 Business Hypotheses and in the Multivariable it is the correlations and the pair diagrams</p>
 
+<p>Principal Results</p>
+
+1. Usually after fraudulent transactions, all money is withdrawn from the destination account.
+2. Only Transactions and Debit types have fraudulent activities.
+3. The dataset does not follow a standard cash flow due to the simulator that generated the data.
+4. There is not much information related to CASH-OUT to answer item 3, it can be assumed that the chash-out is a transaction worth 0 and therefore has some value that does not follow a flow.
+5. the numerical variables have a distribution that can be seen by applying the log.
+6. There is a spike in fraudulent transactions at the beginning of the simulation month.
+7. Fraudulent transactions do not have negative diff in origin based on amount.
+8. The larger the transaction, the more susceptible it is to fraud.
 
 <h3>2.2. Top 3 Eda Insights</h3>
 <hr>
