@@ -17,7 +17,8 @@
 - [1. Solution Strategy and Assumptions Resume](#1-solution-strategy-and-assumptions-resume)
   - [1.1. First CRISP Cycle](#11-first-crisp-cycle)
 - [2. Exploratory Data Analysis](#2-exploratory-data-analysis)
-  - [2.2. Top 3 Eda Insights](#22-top-3-eda-insights) 
+  - [2.2. Top 3 Eda Insights](#22-top-3-eda-insights)
+- [9. References](#9-references)
 
 ---
 
