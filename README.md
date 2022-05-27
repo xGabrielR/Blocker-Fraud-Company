@@ -112,8 +112,6 @@
 
 <h5>0.3.1.4. Payment</h5>
 <p>An act initiated by the payer or payee, or on behalf of the payer, of placing, transferring or withdrawing funds, irrespective of any underlying obligations between the payer and payee.</p>
-
-
  
 <h2>1. Solution Strategy and Assumptions Resume</h2>
 <hr>
