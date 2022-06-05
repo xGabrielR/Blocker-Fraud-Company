@@ -21,8 +21,11 @@
 - [3. Data Preparation](#3-data-preparation)
   - [3.1. Encoding and Rescaling](#31-encoding-and-rescaling)
   - [3.2. Feature Selection](#32-feature-selection)
+  - [5.3. Model Metrics](#53-model-metrics)
 - [4. Embedding Space Study](#4-embedding-space-study)
-- [5. Machine Learning Models](#5-machine-learning-models) 
+- [5. Machine Learning Models](#5-machine-learning-models)
+- [6. Model Tuning](#6-model-tuning)
+- [7. Model Bussiness Results](#7-model-bussiness-results)
 - [9. References](#9-references)
 
 ---
@@ -231,26 +234,84 @@
 <h3>5.2. XGBoost</h3>
 <p>Better results of all models with all train dataset. With test dataset the results is:</p>
 
-![xgboost](https://user-images.githubusercontent.com/75986085/172069796-7c521f12-e15b-4687-a084-e669ada5245d.png)
+![xgboost](https://user-images.githubusercontent.com/75986085/172069967-41262d00-aba2-4be5-bb4f-d4472dc08d84.png)
+
+<p>In cross validation with test dataset I get this results in both datasets:</p>
+
+![cross](https://user-images.githubusercontent.com/75986085/172069901-ce050134-8145-4079-9fbf-dafc26ed1b7d.png)
+
+<h3>5.3. Model Metrics</h3>
+
+<p>The key of this results is the <b>Recall</b> of the model, Recall is a model performace metric based on "false negative". In Blocker Fraud with lower recall, the model is missing fraudulent transactions, this is horrible for the current business model which is based on whether or not to detect fraud, if the model misses a legitimate fraud it can cause a lot of financial damage especially if it is a very high transaction.</p>
+
+<p>In the Confusion Matrix (2x2 cube plot) the model is missing <b>six</b> fraudulent transactions, and the question that remains, what if just one of these transactions cost the entire company? The bussiness model is, 100% of cash back if model miss the fraud!!</p>
 
 
-<!-- <h2>6. Model Tuning</h2>
+<h2>6. Model Tuning</h2>
 <hr>
 
-<p></p> -->
-
-
-<!-- <h2>7. Model Bussiness Results</h2>
-<hr>
-
-<p></p>
- -->
+<p>In this step, I have used this techniques:</p>
  
+1. **Cross Validation**: To get the real performace of Model in some pices of dataset.
 
-<!-- <h2>8. Model Deployment</h2>
+<p>Cross Validation for Default Model.</p>
+
+![cross](https://user-images.githubusercontent.com/75986085/172069901-ce050134-8145-4079-9fbf-dafc26ed1b7d.png)
+
+2. **Grid Search**: To maximize model performace based on model's parameters.
+
+<p>Using Grid Search I get a more simple model with 85 estimators for example.</p>
+
+3. **Change Threshold**: Analyze whether or not it is worth changing the Threshold for better performance.
+
+<p>By Default, the sklearn define a threshold is .5, in this analysis I check what is the best threshold for this model to classify.</p>
+
+![model_threshold](https://user-images.githubusercontent.com/75986085/172070281-157d3ee9-d034-4155-a402-6760a2c8fce9.png)
+
+4. **Calibration Curves**: Calibrate the model for better performace.
+
+<p>Predicted probabilities that match the expected distribution of probabilities for each class are referred to as calibrated. The distribution of the probabilities can be adjusted to better match the expected distribution observed in the data.</p>
+
+<h2>7. Model Bussiness Results</h2>
 <hr>
 
-<p></p> -->
+<p>Now, based on bussiness I will translate model performace on bussiness performace. In other words, how much money will I make using the model?</p>
+
+<h4>1. What is the precision and accuracy of the model?</h4>
+
+<p>The precision and the accuracy of model results in One training and testing is 0.999994 for accuracy and 0.99513 for Precision. But this two metrics is do not good for Blocker Fraud, because if model wrong the fraud detection, he needs to refund 100% of transaction amount, because this i used recall two.</p>
+
+<p>If lower Recal much chance to have False Negative (Fraud but model classify with No Fraud). For recall in one training and testing I get 1.0 recall based on amount of no fraud detected.</p>
+
+<p>In cross validation i get 0.9951 + / - 0.0 of Recall.</p>
+
+
+<h4>2. How reliable is the model in classifying new transactions?</h4>
+
+1. Answer in Second Cycle!
+
+
+<h4>3. What is the company's expected revenue if 100% of the transactions are classified with the model?</h4>
+
+1. If all **trully transactions detected as a fraud**, the company will **receive** a total of **R$ 56616833024,00**.
+2. If all **fraudulent transactions is detected** by model, the company will **receive** a total of **R$ 3014103808,00**.
+3. Total **money obtained by only correct detections** is **R$ 59630936064,00**.
+
+<h4>4. What is the price expected by the company if the model fails?</h4>
+
+1. If all fraudulent transactions in dataset is **not detected**, the company will **lost** **R$ 3014103808,00.**
+2. The diference of detection is **R$ -9042311168,00**, if model miss, the company will have more loss.
+
+<h4>5. What is the expected profit for using this model?</h4>
+
+1. The company will **save a total** of **R$ +/- 11996415433,55** ONLY for fraudulent transactions on dataset!!
+
+<p>The model miss six fraudulent transactions, to answer this I only sort values and drop the last six transactions with more amount.</p>
+
+<h2>8. Model Deployment</h2>
+<hr>
+
+<p>Under Working.</p>
 
 
 <h2>9. References</h2>
