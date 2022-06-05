@@ -18,6 +18,11 @@
   - [1.1. First CRISP Cycle](#11-first-crisp-cycle)
 - [2. Exploratory Data Analysis](#2-exploratory-data-analysis)
   - [2.2. Top 3 Eda Insights](#22-top-3-eda-insights)
+- [3. Data Preparation](#3-data-preparation)
+  - [3.1. Encoding and Rescaling](#31-encoding-and-rescaling)
+  - [3.2. Feature Selection](#32-feature-selection)
+- [4. Embedding Space Study](#4-embedding-space-study)
+- [5. Machine Learning Models](#5-machine-learning-models) 
 - [9. References](#9-references)
 
 ---
@@ -190,22 +195,43 @@
 ![fraud_amount](https://user-images.githubusercontent.com/75986085/170603081-50437ceb-03e6-4b01-a2a8-8f107a08215a.png)
 
 
-<!-- <h2>3. Data Preparation</h2>
+<h2>3. Data Preparation</h2>
 <hr>
 
-<p></p> -->
+<h3>3.1. Encoding and Rescaling</h3>
+<p>In first cycle I only used Frequency Encoding for all categorical features and most robust scaler for numerical features because have extrema skewness on all numerical variables. But in EDA i see some good features to use log transformation too, for example the Amout have a cool normal shape when this feature is rescaled. For day feature I chose sin cos transformation.</p>
+
+<p>In Second cycle I will go try log transformation and others encoding like One-Hot for type of payment because do not have any order on the transaction type, and I think the frequency encoding it's applying a bias on the transaction type because have different sizes of types in the same feature.</p>
+
+![sizes](https://user-images.githubusercontent.com/75986085/172069361-76d5b73d-44b5-4d19-afc9-87ca6badf3da.png)
+
+<p>But in EDA I have checked, only exists transaction fraud only on Debit and Transaction types in this feature.</p>
+
+<h3>3.2. Feature Selection</h3>
+
+<p>In first cycle I choose a simple and fast method to check feature importance using only two models, the Random Forest and XGBoost, in second cycle I will try Boruta.</p>
+
+<p>In resume, the XGBoost have better results than Random Forest, But why XGB, he took the difference in type feature (cashin, cashout...) and didn't overfit the other features, the RF only selected two features.</p>
 
 
-<!-- 
+
 <h2>4. Embedding Space Study</h2>
 <hr>
 
-<p></p> -->
+<p>Next Cycle</p>
 
-<!-- <h2>5. Machine Learning Models</h2>
+<h2>5. Machine Learning Models</h2>
 <hr>
 
-<p></p> -->
+<p>In this step to chose only used four models, the Stochastic Gradient Descent, LGBM, Random Forest Classifier and XGBoost Classifier for prediction with dataset splited in three, train, validation and test.</p>
+
+<h3>5.1. Stochastic Gradient Descent</h3>
+<p>The SGD is my second baseline model, in some cases this model fit's good the dataset and have good performaces, but for this dataset based on results of data preparation, the SGD do not haved a good performace than RF and XGB.</p>
+
+<h3>5.2. XGBoost</h3>
+<p>Better results of all models with all train dataset. With test dataset the results is:</p>
+
+![xgboost](https://user-images.githubusercontent.com/75986085/172069796-7c521f12-e15b-4687-a084-e669ada5245d.png)
 
 
 <!-- <h2>6. Model Tuning</h2>
