@@ -336,7 +336,7 @@
   </dl>
 </ul>
 
-![fraudlake](https://user-images.githubusercontent.com/75986085/173483059-4e648779-a8cf-427e-8e5b-113e67b1fadf.png)
+IMG_BUCKET 
 
 <p>Minio s3 buckets (Datalake) with PySpark parquet files and CSV file.</p>
 
