@@ -26,6 +26,10 @@
 - [5. Machine Learning Models](#5-machine-learning-models)
 - [6. Model Tuning](#6-model-tuning)
 - [7. Model Bussiness Results](#7-model-bussiness-results)
+- [8. 8. Model Deployment](#8-model-deployment)
+  - [8.1. ETL Process](#81-etl-process)
+  - [8.2. Airflow Jobs](#82-airflow-jobs)
+  - [8.3. Streamlit or BI Dashboard](#83-streamlit-or-bi-dashboard) 
 - [9. References](#9-references)
 
 ---
@@ -311,8 +315,42 @@
 <h2>8. Model Deployment</h2>
 <hr>
 
-<p>Under Working.</p>
+<h3>8.1. ETL Process</h3>
 
+![sh](https://user-images.githubusercontent.com/75986085/173481394-6763761e-0aaf-43a3-affa-106b3a93026b.png)
+
+<p>This is the first architecture ideia.</p>
+
+<ul>
+  <dl>
+    <dt>Data Scource -> Postgresql</dt>
+      <dd>The "Raw" data is in Postgresql in Heroku Cloud. Only have 5.000 rows to classify with model.</dd>
+    <dt>Airflow Task I.</dt>
+      <dd>In this task, the Airflow daily collect data from postgresql and store in CSV local file for Backup and go to classification.</dd>
+    <dt>Airflow Task II.</dt>
+      <dd>In this task, the Airflow daily make a POST request to model on Cloud to classify the 5.000 rows on Fraud and Not.</dd>
+    <dt>Airflow Task III.</dt>
+      <dd>Store CSV/Parquet file on s3 Bucket.</dd>
+    <dt>Databse Dashboard.</dt>
+      <dd>Daily job to collect new data to feed in Power Bi/Streamlit dashboard.</dd>
+  </dl>
+</ul>
+
+<h3>8.2. Airflow Jobs</h3>
+
+![airflow](https://user-images.githubusercontent.com/75986085/173482116-0b7f980a-fabf-4ad0-a809-ba4f2183de2e.png)
+
+<p>Airflow in <b>windows</b> with docker-compose, it's success in dark green.</p>
+
+<p><b>In Future:</b></p>
+
+1. More Robust PySpark Structure; 
+
+2. Try Hadoop Clusters; 
+
+<h3>8.3. Streamlit or BI Dashboard</h3>
+
+<p>Under Working :D</p>
 
 <h2>9. References</h2>
 <hr>
