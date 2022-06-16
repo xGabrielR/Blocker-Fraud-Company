@@ -336,7 +336,7 @@
   </dl>
 </ul>
 
-IMG_BUCKET 
+![minio](https://user-images.githubusercontent.com/75986085/174133568-02ea2e04-2f51-413d-a78a-ab2aacf2a084.png)
 
 <p>Minio s3 buckets (Datalake) with PySpark parquet files and CSV file.</p>
 
