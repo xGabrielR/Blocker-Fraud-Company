@@ -345,7 +345,13 @@
 
 ![airflow](https://user-images.githubusercontent.com/75986085/173482116-0b7f980a-fabf-4ad0-a809-ba4f2183de2e.png)
 
-<p>Airflow in <b>windows</b> with docker-compose, it's success in dark green.</p>
+<p>Airflow in <b>windows</b> with docker-compose, it's success in dark green for all data pipeline jobs.</p>
+<p>The pipeline consists in four simple tasks</p>
+
+1. **Create Buckets**: This step i chekc if have buckets or no at s3.
+2. **Collect Raw Dataset**: Collect raw data from production.
+3. **Model Api Request**: Make a POST request to a model in API to classify the new transactions if is fraud or no.
+4. **Store Dataset on s3**: Store the new dataset with classification on S3 bucket in parquet format.  
 
 <p><b>In Future:</b></p>
 
