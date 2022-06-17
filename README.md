@@ -144,6 +144,10 @@
 
 <h3>1.1. First CRISP Cycle</h3>
 
+![BlockFraudDash](https://user-images.githubusercontent.com/75986085/174213823-cbb67c30-f1ff-4bc0-99fa-10c58f029122.gif)
+
+<a href="https://blk-frd-dash.herokuapp.com/">Streamlit Dashboard!</a>
+
 <ul>
   <dl>
     <dt>Data Cleaning & Descriptive Statistical.</dt>
@@ -361,7 +365,9 @@
 
 <h3>8.3. Streamlit or BI Dashboard</h3>
 
-<p>Under Working :D</p>
+<a href="https://blk-frd-dash.herokuapp.com/">Streamlit Dashboard!</a>
+
+![BlockFraudDash](https://user-images.githubusercontent.com/75986085/174213775-0106f9df-edbe-4503-a6a6-77a09ccc0759.gif)
 
 <h2>9. References</h2>
 <hr>
