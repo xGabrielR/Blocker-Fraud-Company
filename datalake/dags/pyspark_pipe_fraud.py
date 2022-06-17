@@ -15,7 +15,7 @@ from pyspark.sql import functions as psf
 
 
 BASE_DIR = os.path.join(os.path.abspath('.'))
-#JARS_DIR = os.path.join(BASE_DIR, 'jars')
+#JARS_DIR = os.path.join(BASE_DIR, 'jars') # Do not Need
 DATETIME_REQUEST = datetime.now().strftime('%Y_%m_%d')
 
 client = Minio(
