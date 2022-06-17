@@ -19,9 +19,9 @@ BASE_DIR = os.path.join(os.path.abspath('.'))
 DATETIME_REQUEST = datetime.now().strftime('%Y_%m_%d')
 
 client = Minio(
-    endpoint='192.168.101.3:9000',
-    access_key='minioadmin',
-    secret_key='minioadmin',
+    endpoint=getInfos().MINIO_ENDPOINT,
+    access_key=getInfos().ACCESS_KEY,
+    secret_key=getInfos().SECRET_KEY,
     secure=False
 )
 
@@ -29,7 +29,7 @@ spark = (
     SparkSession
     .builder
     .appName('pipeline')
-    .config('fs.s3a.endpoint', 'http://192.168.101.3:9000')
+    .config('fs.s3a.endpoint', getInfos().MINIO_HOST)
     .config('fs.s3a.buffer.dir', 's3a://fraudlake/pyspark')
     .config('fs.s3a.fast.upload.buffer', 'bytebuffer')
     .config('fs.s3a.fast.upload.active.blocks', 1)
@@ -44,7 +44,7 @@ spark = (
 class BlockFraudPipe(BasePipeline):
     def __init__(self, tables: list):
         self.__tables = tables
-        self.url = "https://blk-frd-api-new.herokuapp.com/predict"
+        self.url = getInfos().MODEL_API_HOST
         self.hdr = {"Content-type": "application/json"}
 
 
