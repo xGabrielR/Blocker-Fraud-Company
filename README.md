@@ -323,7 +323,7 @@
 
 ![sh](https://user-images.githubusercontent.com/75986085/173481394-6763761e-0aaf-43a3-affa-106b3a93026b.png)
 
-<p>This is the first architecture ideia.</p>
+<p>This is the first cloud architecture ideia.</p>
 
 <ul>
   <dl>
