@@ -5,7 +5,7 @@
 <h2>Summary</h2>
 <hr>
 
-- [0. Bussiness Problem](#0-bussiness-problem)
+- [0. Business Problem](#0-bussiness-problem)
   - [0.1. What is a Service](#01-what-is-a-service)
   - [0.2. What is a Fraud](#02-what-is-a-fraud)
   - [0.3. Fraud in Financial Transactions](#03-fraud-in-financial-transactions)
@@ -34,7 +34,7 @@
 
 ---
 
-<h2>0. Bussiness Problem</h2>
+<h2>0. Business Problem</h2>
 <hr>
 
 <p style="text-align:center;"><i>"Blocker Fraude Company is a company specialized in fraud detection in financial transactions made through mobile devices. The company has a service called “Blocker Fraud” with guarantee of blocking fraudulent transactions."</i></p>
